@@ -1,0 +1,3 @@
+USE book_tracker;
+ALTER TABLE Users
+ADD IsConfirmed BOOLEAN DEFAULT FALSE;
